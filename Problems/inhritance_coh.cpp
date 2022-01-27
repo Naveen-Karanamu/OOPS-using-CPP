@@ -20,6 +20,7 @@ public:
         cout << "The ADDITION of the numbers " << s1 << " and " << s2 << " is :" << s1 + s2 << endl;
         cout << "The SUBTRACTION of the numbers " << s1 << " and " << s2 << " is :" << s1 - s2 << endl;
     }
+    
 };
 
 class sciCalc
