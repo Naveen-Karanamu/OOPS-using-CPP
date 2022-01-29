@@ -17,10 +17,13 @@ using namespace std;
 
 int main()
 {
-    //  string s="hello world";
-    // //  Opening the file using the constructor and writting it
-    // ofstream out("text.txt");
-    // out<<s; //This will over write the existing data on every run
+     string s="hello world";
+    //  Opening the file using the constructor and writting it
+    ofstream out("text.txt");
+    out<<s; //This will over write the existing data on every run
+
+    // Closing the file
+    out.close();
 
     string str;
     ifstream in("text.txt");
@@ -29,5 +32,8 @@ int main()
     getline(in,str); //This will fetch the whoie sentence of the file. To get the next sentence we have to run it again
     cout<<str;
 
+    // closing the file
+    in.close();
+
     return 0;
-}
+} 
