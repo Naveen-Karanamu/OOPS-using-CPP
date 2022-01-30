@@ -22,6 +22,9 @@ int main()
         cin>>ele;
         v.push_back(ele);
     }
+
+    // Creating the iterator
+    // vector<int> :: iterator i =v.begin();
     display(v);
 
     return 0;
